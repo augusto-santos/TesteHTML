@@ -125,7 +125,7 @@ svg{
 .card-noticia .info .title{
 	display: flex;
 	position: relative;
-	height: 40px;
+	min-height: 40px;
 	width: 100%;
 	align-items: center;
 	padding-right: 20px;
@@ -171,7 +171,7 @@ svg{
 .card-noticia .info .description{
 	display: flex;
 	position: relative;
-	height: 60%;
+	height: 100%;
 	width: 100%;
 	justify-content: flex-end;
 	overflow: hidden;
@@ -206,7 +206,7 @@ svg{
 }
 
 .card-noticia .info .action{
-	height: 20%;
+	min-height: 40px;
 	width: 100%;
 	display: flex;
 	align-items: center;
