@@ -1,5 +1,6 @@
 @import './variables.css';
 @import './iconsSVG.css';
+@import './block-noticia.css';
 
 html{
 	margin: 0;
@@ -61,11 +62,11 @@ svg{
 	transition: box-shadow .3s ease;
 }
 
-.card-noticia:hover{
+.card-noticia:hover, .card-noticia:focus{
 	box-shadow: var(--shadow-hover);
 }
 
-.card-noticia:hover .info{
+.card-noticia:hover .info, .card-noticia:focus .info{
 	bottom: 0;
 }
 
